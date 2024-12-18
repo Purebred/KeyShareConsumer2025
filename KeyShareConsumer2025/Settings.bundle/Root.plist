@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>StringsTable</key>
+	<string>Root</string>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Title</key>
+			<string>User selected keys</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>All keys (purebred2025.rsa.pkcs-12)</string>
+			<key>Key</key>
+			<string>toggle_com_rsa_pkcs12</string>
+			<key>DefaultValue</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>All recent keys (purebred2025.select.all)</string>
+			<key>Key</key>
+			<string>toggle_purebred_select_all</string>
+			<key>DefaultValue</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>All recent user keys (purebred2025.select.all-user)</string>
+			<key>Key</key>
+			<string>toggle_purebred_select_all-user</string>
+			<key>DefaultValue</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Recent signature keys (purebred2025.select.signature)</string>
+			<key>Key</key>
+			<string>toggle_purebred_select_signature</string>
+			<key>DefaultValue</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>All encryption keys (purebred2025.select.encryption)</string>
+			<key>Key</key>
+			<string>toggle_purebred_select_encryption</string>
+			<key>DefaultValue</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Recent authentication keys (purebred2025.select.authentication)</string>
+			<key>Key</key>
+			<string>toggle_purebred_select_authentication</string>
+			<key>DefaultValue</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Recent device keys (purebred2025.select.device)</string>
+			<key>Key</key>
+			<string>toggle_purebred_select_device</string>
+			<key>DefaultValue</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>All keys (purebred2025.select.no-filter)</string>
+			<key>Key</key>
+			<string>toggle_purebred_select_no-filter</string>
+			<key>DefaultValue</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>All recent keys (purebred2025.zip.all)</string>
+			<key>Key</key>
+			<string>toggle_purebred_zip_all</string>
+			<key>DefaultValue</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>All recent user keys (purebred2025.zip.all-user)</string>
+			<key>Key</key>
+			<string>toggle_purebred_zip_all-user</string>
+			<key>DefaultValue</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Recent signature keys (purebred2025.zip.signature)</string>
+			<key>Key</key>
+			<string>toggle_purebred_zip_signature</string>
+			<key>DefaultValue</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>All encryption keys (purebred2025.zip.encryption)</string>
+			<key>Key</key>
+			<string>toggle_purebred_zip_encryption</string>
+			<key>DefaultValue</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Recent authentication keys (purebred2025.zip.authentication)</string>
+			<key>Key</key>
+			<string>toggle_purebred_zip_authentication</string>
+			<key>DefaultValue</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Recent device keys (purebred2025.zip.device)</string>
+			<key>Key</key>
+			<string>toggle_purebred_zip_device</string>
+			<key>DefaultValue</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>All keys (purebred2025.zip.no-filter)</string>
+			<key>Key</key>
+			<string>toggle_purebred_zip_no-filter</string>
+			<key>DefaultValue</key>
+			<false/>
+		</dict>
+	</array>
+</dict>
+</plist>

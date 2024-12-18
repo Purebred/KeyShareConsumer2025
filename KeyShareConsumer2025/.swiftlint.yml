@@ -1,0 +1,7 @@
+line_length: 200
+
+excluded:
+  - Pods
+  
+opt_in_rules:
+  - force_unwrapping
