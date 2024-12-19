@@ -71,11 +71,11 @@ BOOL startAccessingWorked = [url startAccessingSecurityScopedResource];
 
 ### Uniform type identifiers (UTIs)
 
-Legacy key sharing and key sharing 2025 use different Purebred-specific UTIs. Only one UTI is common to the two implementations. The table below shows the UTIs from each implementation.
+Legacy key sharing and key sharing 2025 use different UTIs. This prevents inadvertent attempts to import keys from an incompatible implementation. The table below shows the UTIs from each implementation.
 
 |Legacy UTI|2025 UTI|
 |---------|:-----------:|
-|com.rsa.pkcs-12|com.rsa.pkcs-12|
+|com.rsa.pkcs-12|purebred2025.rsa.pkcs-12|
 |purebred.select.all|purebred2025.select.all|
 |purebred.select.all-user|purebred2025.select.all-user|
 |purebred.select.device|purebred2025.select.device|
@@ -92,7 +92,7 @@ Legacy key sharing and key sharing 2025 use different Purebred-specific UTIs. On
 |purebred.zip.no-filter|purebred2025.zip.no-filter|
 |||
 
-Though the UTIs feature similar names, there are some significant differences in terms of functionality. In legacy key sharing, the ``purebred.select.*`` UTIs cause display of the most recent PKCS #12 file(s) of the given certificate type. In key sharing 2025, the ``purebred2025.select.*`` UTIs cause display of folders containing the most recent PKCS #12 file(s) of the given certificate type. To display the contents of a folder, then the following UTIs must also be added, i.e., the UTIs that target folders must be paired with UTIs that target the folder's contents.
+Though the UTIs feature similar names, there are some significant differences in terms of functionality. In legacy key sharing, the ``purebred.select.*`` UTIs cause display of the most recent PKCS #12 file(s) of the given certificate type. In key sharing 2025, the ``purebred2025.select.*`` UTIs cause display of folders containing the most recent PKCS #12 file(s) of the given certificate type. To enable display the contents of a folder, a companion UTI must also be asserted. The following table lists the UTIs that correspond to the ``purebred.select.*`` UTIs and enable display of PKCS #12 files.
 
 |2025 UTI|Purpose|
 |---------|:-----------:|
