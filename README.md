@@ -126,3 +126,5 @@ The resulting `KeyShareConsumer2025.doccarchive` can be subsequently found in th
 ### Building
 
 Prior to attempting to build the project, replace the project's bundle identifier.
+
+After making this change, run `pod install` from a terminal prompt then open the resulting workspace to build the app.
